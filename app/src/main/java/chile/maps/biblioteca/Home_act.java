@@ -54,7 +54,7 @@ public class Home_act extends AppCompatActivity {
     public void libros(View view){
         Intent i = new Intent(this, Libros_Act.class);
         String[] listaLibros = new String[]{"Farenheit","Revival","Tesla"};
-        int[] listaCostos = new int[]{5000,12000,25000};
+        int[] listaCostos = new int[]{5000,12000,25000,35000,45000};
         i.putExtra("ListaNombresLibros",listaLibros);
         i.putExtra("ListaCostosLibros",listaCostos);
         startActivity(i);
